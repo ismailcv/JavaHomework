@@ -1,0 +1,38 @@
+Lineer search: Sýralý arama demektir. Sýralý bir listede 
+aranan eleman listenin baþýndan baþlanarak aranýr. 
+Ýstenen deðer bulunana kadar her defasýnda bir sonraki
+ elemana geçer.
+
+
+Binary Search: Ýkili arama demektir. Sýralý listemizi 
+ortadan ikiye bölerve her defasýnda aranan deðerin listedeki
+bölünmüþ kýsýmlardan büyük mü yoksa küçük mü olduðunu 
+kontrol eder ve bu þekilde istenen deðeri bulur.
+
+
+Ýnterpolation Search: Ýnterpolasyon arama demektir.
+Bu iþlem aþþaðýda yazan formüle göre arama yapar.
+pos = lo + [ (x-arr[lo])*(hi-lo) / (arr[hi]-arr[Lo])]
+
+arr[]: Öðelerin aranmasý gereken dizi
+x: Aranacak eleman
+lo: arr[] dizininde baþlangýç dizini
+hi: arr[] cinsinden bitiþ dizini
+
+
+Exponential Search: Üstel arama demeketir.
+Parmakla arama olarak da bilinen Üstel Arama, sýralý bir dizide
+bir öðeyi, 2^ii döngü kontrol deðiþkeninin deðerini 
+temsil ettiði her yinelemede atlayarak ve ardýndan 
+arama öðesinin son atlama ile geçerli atlama arasýnda olup
+olmadýðýný doðrulayarak, sýralanan dizide bir öðeyi arar .
+Örnek verecek olursak 1,2,3,4,5,6,7,8,9,10 dizisinde 6 sayýsýný
+ararken önce 2^1 e bakýyor küçük diyor tekrar devam
+sonra 2^2 ye bakýyor küçük diyor tekrar bakýyor sonra
+2^3 diyor bu sayýdan büyük o zaman dur sayý 2^2 ile 2^3 arasýnda
+diyor. En son bulunan aralýkta binary search yapýyoruz.  
+
+
+
+
+

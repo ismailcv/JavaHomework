@@ -1,0 +1,34 @@
+BLM 2002 ÖDEV3           14.03.2022 tarihi son gönderim.
+
+Baðlantýlý listeler ile ilgili aþaðýda verilen metotlar
+yazýlmalýdýr. Tüm durumlarda baþlangýç durum analizi 
+yapýlmalýdýr. Yani listelerin boþ vb durumlarý kontrol 
+edilmelidir. Ayrýca tüm metotlarýn O notasyonuna göre 
+çalýþma zamaný analizi yapýlmalý ve rapor olarak sunulmalýdýr.
+
+· Ýki baðlantýlý listeyi birleþtirmek için bir metot yazýn.
+Verilen listeler l1 = (2, 3, 1) ve l2 = (4, 5) 
+concatenate(l1,l2)'den döndükten sonra l1 listesi 
+l1 = (2, 3, 1, 4, 5) olarak deðiþtirilmelidir.
+
+· Sýralanmýþ bir baðlantýlý listeye bir sayý eklemek için 
+bir metot yazýn. Listenin en küçükten en büyüðe doðru 
+sýralandýðýný varsayalým. Ekledikten sonra, liste hala 
+sýralanmýþ olmalýdýr. L1 = (3, 17, 18, 27) listesi ve 
+20 deðeri verildiðinde, L1'in dönüþünde 
+liste (3, 17, 18, 20, 27) olur.
+
+· Sýralanmýþ bir baðlantýlý listede medyan deðeri döndüren
+bir metot yazýn. Listenin i uzunluðu tek ise, 
+medyan ceil(i/2) üyesidir. Örneðin, 
+girdi olarak (1, 2, 2, 5, 7, 9, 11) listesi verildiðinde, 
+metot 5 deðerini döndürmelidir. Listenin uzunluðu çift ise, 
+medyan i'nin ortalamasýdýr. /2 ve (i/2)+1 üye. 
+Böylece sýralý listenin (2, 4, 8, 9) medyaný (4+8)/2'dir. 
+Son olarak, boþ bir listenin medyanýný 0 olarak tanýmlayýn.
+
+· Baðlantýlý bir listedeki düðümleri tersine çeviren bir 
+fonksiyon yazýn. Metodun zaman karmaþýklýðý O(n) olmalýdýr,
+burada n, listenin uzunluðudur. 
+ 
+ 

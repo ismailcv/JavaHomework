@@ -1,0 +1,28 @@
+Teori dersinde açýklanan tek yönlü linked list uygulamasýna
+ait kodlar edmodo üzerinde paylaþýlmýþtýr. 
+Verilen baðýl listenin gerekli ise sýnýflarýný ve 
+test sýnýfýný aþaðýda belirtilen þekilde tamamlayýnýz.
+
+Bu ödev için, (þu anda eksik olan) Bliste.java sýnýf 
+dosyasýndaki birkaç yöntemi tamamlayacaksýnýz. 
+Özellikle, aþaðýdakilerin uygulanmasýný doldurulmalýdýr.
+
+· getFirst()
+
+o Ýlk elemaný eðer baðýl liste dolu ise döndür 
+boþ ise bilgi verilmelidir.
+
+· contains( item )
+
+o Baðýl liste içinde verilen item olup olmadýðýný 
+kontrol etmeli dolu ise index ve tru bilgisi dönmelidir.
+ (ayný elemandan birden fazla ise ilk bulduðunun indisi 
+ ve true bilgisi dönmelidir.)
+
+· set( int n, item)
+
+o Baðýl liste içinde verilen n index deðerindeki 
+item deðeri buradaki item deðeri ile deðiþtirilmelidir.
+
+Yukarýda verilen metotlar mutlaka test doyasý içinde
+ test edilmeli ve lab saatinde gösterilmelidir.
